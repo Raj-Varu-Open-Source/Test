@@ -170,7 +170,7 @@ def analyse_video(video_path : str, trim_frame_start : int, trim_frame_end : int
 def detect_nsfw(vision_frame : VisionFrame) -> bool:
     return False
 
-	return is_nsfw_1 and is_nsfw_2 or is_nsfw_1 and is_nsfw_3 or is_nsfw_2 and is_nsfw_3
+
 
 
 def detect_with_nsfw_1(vision_frame : VisionFrame) -> bool:
